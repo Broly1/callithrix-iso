@@ -348,7 +348,7 @@ mkinitcpio-openswap
 ###utilities
 alacritty
 appstream
-appstream-qt5
+appstream-qt
 downgrade
 font-manager
 gitahead
