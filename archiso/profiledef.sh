@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="buildra"
-iso_label="buildra-v25.09.28.01"
-iso_publisher="buildra"
-iso_application="buildra Live/Rescue CD"
-iso_version="v25.09.28.01"
+iso_name="callithrix"
+iso_label="callithrix-v25.10.17.01"
+iso_publisher="callithrix"
+iso_application="callithrix Live/Rescue CD"
+iso_version="v25.10.17.01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'

@@ -48,7 +48,7 @@ rm -f chaotic-keyring.pkg.tar.zst chaotic-mirrorlist.pkg.tar.zst
 echo -e "${GREEN}Chaotic-AUR keyring and mirrorlist installed successfully.${NC}"
 
 # Configure pacman.conf
-backup_file="/etc/pacman.conf.buildra"
+backup_file="/etc/pacman.conf.callithrix"
 new_conf="pacman.conf"
 target="/etc/pacman.conf"
 
@@ -72,4 +72,4 @@ else
     exit 1
 fi
 
-echo -e "${GREEN}Repositories 'nemesis_repo' and 'chaotic_aur' should now be configured.${NC}"
+echo -e "${GREEN}Repositorie 'chaotic_aur' should now be configured.${NC}"
