@@ -72,4 +72,4 @@ else
     exit 1
 fi
 
-echo -e "${GREEN}Repositories 'nemesis_repo' and 'chaotic_aur' should now be configured.${NC}"
+echo -e "${GREEN}Repositorie 'chaotic_aur' should now be configured.${NC}"

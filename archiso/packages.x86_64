@@ -101,7 +101,6 @@ gst-plugins-bad
 gst-plugins-ugly
 gstreamer
 libdvdcss
-pavucontrol
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -125,6 +124,7 @@ flatpak
 freetype2
 git
 glances
+gnome-disk-utility
 htop
 plymouth
 plymouth-kcm
@@ -143,7 +143,6 @@ os-prober
 plocate
 ntp
 pacman-contrib
-pacman-hook-kernel-install
 pkgfile
 poppler-glib
 poppler-qt5
@@ -217,9 +216,6 @@ syslinux
 clonezilla
 efitools
 fsarchiver
-gpart
-gparted
-grsync
 partitionmanager
 hdparm
 
@@ -264,7 +260,6 @@ powerdevil
 print-manager
 sddm-kcm
 spectacle
-xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
 
 ## Browser

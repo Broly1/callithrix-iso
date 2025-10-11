@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="callithrix"
-iso_label="callithrix-v25.10.08.01"
+iso_label="callithrix-v25.10.10.01"
 iso_publisher="callithrix"
 iso_application="callithrix Live/Rescue CD"
-iso_version="v25.10.08.01"
+iso_version="v25.10.10.01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
