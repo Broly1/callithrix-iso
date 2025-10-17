@@ -272,7 +272,6 @@ echo "################################################################## "
 tput setaf 2
 echo "Phase 4 :"
 echo "- Deleting any files in /etc/skel"
-echo "- Getting the last version of bashrc in /etc/skel"
 echo "- Removing the old packages.x86_64 file from build folder"
 echo "- Copying the new packages.x86_64 file to the build folder"
 tput sgr0
@@ -285,7 +284,7 @@ echo
 
 	echo "Getting the last version of bashrc in /etc/skel"
 	echo
-	wget https://raw.githubusercontent.com/erikdubois/edu-shells/refs/heads/main/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
+	wget https://raw.githubusercontent.com/Broly1/basrc/refs/heads/main/.bashrc -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/archiso/packages.x86_64
